@@ -1,0 +1,189 @@
+# Создано с помощью https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node
+# Отредактируйте на https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,node
+
+### Node ###
+# Журналы
+журналы
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Отчёты о диагностике (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Данные о выполнении
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Каталог для инструментированных библиотек, сгенерированных jscoverage/JSCover
+lib-cov
+
+# Каталог покрытия, используемый такими инструментами, как istanbul
+coverage
+*.lcov
+
+# Покрытие тестов nyc
+.nyc_output
+
+# Промежуточное хранилище Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Каталог зависимостей Bower (https://bower.io/)
+bower_components
+
+# Конфигурация node-waf
+.lock-wscript
+
+# Скомпилированные двоичные аддоны (https://nodejs.org/api/addons.html)
+build/Release
+
+# Каталоги зависимостей
+node_modules/
+jspm_packages/
+
+# Каталог зависимостей Snowpack (https://snowpack.dev/)
+web_modules/
+
+# Кэш TypeScript
+*.tsbuildinfo
+
+# Дополнительный каталог кэша npm
+.npm
+
+# Дополнительный кэш eslint
+.eslintcache
+
+# Дополнительный кэш stylelint
+.stylelintcache
+
+# Кэш Microbundle
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Дополнительная история REPL
+.node_repl_history
+
+# Вывод команды 'npm pack'
+*.tgz
+
+# Файл целостности Yarn
+.yarn-integrity
+
+# файлы переменных среды dotenv
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# кэш-память parcel-bundler (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# вывод сборки Next.js
+.next
+out
+
+# вывод сборки / генерации Nuxt.js
+.nuxt
+dist
+
+# файлы Gatsby
+.cache/
+# Если ваш проект использует Gatsby, а не Next.js, закомментируйте строку public
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# вывод сборки vuepress
+.vuepress/dist
+
+# каталог временных файлов и кэша vuepress v2.x
+.temp
+
+# кэш и сгенерированные файлы Docusaurus
+.docusaurus
+
+# каталоги Serverless
+.serverless/
+
+# кэш FuseBox
+.fusebox/
+
+# Локальные файлы DynamoDB
+.dynamodb/
+
+# Файл порта TernJS
+.tern-port
+
+# Хранит версии VSCode, используемые для тестирования расширений VSCode
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### Патч Node ###
+# Каталоги бессерверного Webpack
+.webpack/
+
+# Дополнительный кэш stylelint
+
+# Сборка SvelteKit / создание выходных данных
+.svelte-kit
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# Локальная история для Visual Studio Code
+.history/
+
+# Собственные расширения Visual Studio Code
+*.vsix
+
+### Патч для VisualStudioCode ###
+# Игнорировать всю локальную историю файлов
+.history
+.ionide
+
+### Windows ###
+# Файлы кэша эскизов Windows
+Thumbs.db
+Thumbs.db: шифруемый
+ehthumbs.db
+ehthumbs_vista.db
+
+# Файл дампа
+*.stackdump
+
+# Файл конфигурации папки
+[Dd]esktop.ini
+
+# Корзина, используемая на общих файловых ресурсах
+$RECYCLE.BIN/
+
+# Файлы установщика Windows
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Ярлыки Windows
+*.lnk
+
+# Конец https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,node
