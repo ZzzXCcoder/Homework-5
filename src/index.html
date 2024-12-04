@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Adaptive Navigation</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap">
 </head>
+
 <body>
+  <div class="navigation">
+    <nav class="navigation-drawer">
+      <h2 class="navigation-drawer__headline">Mail</h2>
+      <ul class="navigation-drawer__list">
+        <li class="navigation-drawer__item navigation-drawer__item--active">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">all_inbox</span>
+          </div>
+          <p class="navigation-drawer__text">Inbox</p>
+          <span class="navigation-drawer__badge">24</span>
+        </li>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">outbox</span>
+          </div>
+          <p class="navigation-drawer__text">Outbox</p>
+        </li>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">favorite</span>
+          </div>
+          <p class="navigation-drawer__text">Favorite</p>
+        </li>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">delete</span>
+          </div>
+          <p class="navigation-drawer__text">Trash</p>
+        </li>
+      </ul>
+      <div class="navigation-drawer__line"></div>
+      <ul class="navigation-drawer__list navigation-drawer__list--label">
+        <p class="navigation-drawer__headline">Labels</p>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">
+              circle
+            </span>
+          </div>
+          <p class="navigation-drawer__text">Label</p>
+        </li>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">change_history</span>
+          </div>
+          <p class="navigation-drawer__text">Label</p>
+        </li>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">check_box_outline_blank</span>
+          </div>
+          <p class="navigation-drawer__text">Label</p>
+        </li>
+        <li class="navigation-drawer__item">
+          <div class="navigation-drawer__icon">
+            <span class="material-symbols-outlined">star</span>
+          </div>
+          <p class="navigation-drawer__text">Label</p>
+        </li>
+      </ul>
+    </nav>
+    
+    
+  </div>
   
 </body>
 </html>
